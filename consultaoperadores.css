@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)     
+}
+
+section{
+    background-color: #E7F1F7;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid #57A0C9;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.pesquisapornome{
+    margin-left: 37%;
+    color: white;
+
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 18px 39px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: #57A0C9;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 50px;
+    margin-left: 37%;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #417796;
+}
+
+.btn:active{
+    color: #57A0C9;
+    background-color:#203A4A;
+}

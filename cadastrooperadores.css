@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)     
+}
+
+section{
+    background-color: #E7F1F7;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid #57A0C9;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+
+input, select{
+    background-color: #57A0C9;
+}
+
+#nome, #nomeusual, #rg, #cpf, #email, #telefone, #logradouro{
+    width: 350px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+#genero{
+    width: 357px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+#dn, #df{
+    width: 352px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+.endereco{
+    font-size: 21px;
+    padding-left: 8px;
+}
+
+
+.uldois{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#numero{
+    width: 39px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+#cep{
+    width: 70px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+#complemento{
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+#cidadeeestado{
+    width: 230px;
+    border-radius: 3px;
+    border: 2px solid #57A0C9;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 18px 39px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: #57A0C9;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 50px;
+    margin-left: 37%;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #417796;
+}
+
+.btn:active{
+    color: #57A0C9;
+    background-color:#203A4A;
+}
+

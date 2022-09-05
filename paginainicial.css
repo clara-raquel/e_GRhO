@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+.logo{
+    background-color: lightgrey;
+    font-size: 20px;
+    padding: 20px;
+    border: 0.1px solid darkgrey;
+    margin-top: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)    
+}   
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+form{
+    text-align: center;
+    border-radius: 30px;
+    background-color: #E7F1F7;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 105px;
+    border: 1px solid #57A0C9;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.input{
+    width: 250px;
+    height: 23px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 18px 39px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: #57A0C9;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #417796;
+}
+
+.btn:active{
+    color: #57A0C9;
+    background-color:#203A4A;
+}
+
+esqueci{
+    font-size: 20px;
+    color: #417796;
+    text-decoration: none;
+    outline: none;
+}

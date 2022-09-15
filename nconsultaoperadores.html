@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-GRhO - Index</title>
+    <title>e-GRhO - Consulta Operadores</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="nconsultaoperadores.css">
 </head>
 <body style=" font-family: 'Poppins', sans-serif;">
     <div>   
@@ -78,14 +79,56 @@
                     </ul>         
                 </div>
             </div>
-            <div class="col py-3">
-                <h3>Left Sidebar with Submenus</h3>
-                <p class="lead">
-                    An example 2-level sidebar with collasible menu items. The menu functions like an "accordion" where only a single 
-                    menu is be open at a time. While the sidebar itself is not toggle-able, it does responsively shrink in width on smaller screens.</p>
-                <ul class="list-unstyled">
-                    <li><h5>Responsive</h5> shrinks in width, hides text labels and collapses to icons only on mobile</li>
-                </ul>
+            <div class="col py-3" id="conteudo">
+                <section>
+                    <h1>Operadores Cadastrados</h1>
+        
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>RG</th>
+                                <th>CPF</th>
+                                <th>E-mail</th>
+                                <th>Telefone</th>
+                            </tr>
+                        </thead>
+                            
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+        
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+        
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+        
+                    <div>
+                        <input class="pesquisarpornome" type="text" id="buscar" placeholder="Pesquisar por nome...">
+                    </div>
+        
+                    <div>
+                        <button class="botaoconsultar" type="submit"><b>Consultar</b></button><br>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -94,4 +137,3 @@
 </body>
 </html>
 
-#57A0C9

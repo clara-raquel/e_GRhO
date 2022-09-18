@@ -29,7 +29,7 @@ h1{
     height: 25px;
 }
 
-.botaoccadastrarnovahabilitacao{
+.botaoccadastrarnovainspecao{
     border: 2px solid #417796;
     padding: 18px 39px;
     text-decoration: none;
@@ -43,12 +43,12 @@ h1{
     background-image: linear-gradient(to bottom left,white,#57A0C9)
 }
 
-.botaoccadastrarnovahabilitacao:hover{
+.botaoccadastrarnovainspecao:hover{
     color: white;
     background-color: #417796;
 }
 
-.botaoccadastrarnovahabilitacao:active{
+.botaoccadastrarnovainspecao:active{
     color: #57A0C9;
     background-color:#203A4A;
 }

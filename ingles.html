@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-GRhO - Index</title>
+    <title>e-GRhO - Inglês</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="ingles.css">
@@ -53,7 +53,7 @@
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle" style="color: black;">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Consulta Operadores</span> </a>
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline"><b>Consulta Operadores</b></span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Ficha Cadastral</span></a>
@@ -68,7 +68,7 @@
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Afastamentos</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Inglês</span></a>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;"><b>-  Inglês</b></span></a>
                                 </li>                               
                             </ul>
                         </li>
@@ -79,14 +79,52 @@
                     </ul>         
                 </div>
             </div>
-            <div class="col py-3">
-                <h3>Left Sidebar with Submenus</h3>
-                <p class="lead">
-                    An example 2-level sidebar with collasible menu items. The menu functions like an "accordion" where only a single 
-                    menu is be open at a time. While the sidebar itself is not toggle-able, it does responsively shrink in width on smaller screens.</p>
-                <ul class="list-unstyled">
-                    <li><h5>Responsive</h5> shrinks in width, hides text labels and collapses to icons only on mobile</li>
-                </ul>
+            <div class="col py-3" id="conteudo">
+                <section>
+                    <h1>Inglês</h1>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">&nbsp</th>
+                            <th scope="col">Nível</th>
+                            <th scope="col">Ano</th>
+                            <th scope="col">Validade</th>
+                            <th scope="col">Editar</th>
+                            <th scope="col">Excluir</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div>
+                        <button class="botaoccadastrarnovoingles" type="submit"><b>Cadastrar Novo<br> Nível de Inglês</b></button><br>
+                    </div>
+                </section>
             </div>
         </div>
     </div>

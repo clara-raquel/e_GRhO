@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+section{
+    background-color: #E7F1F7;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid #57A0C9;
+    max-width: 1000px;
+}
+
+#conteudo{
+    background-color: #71B6DE;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 15x;
+}
+
+.iconeeditar{
+    width: 35px;
+    height: 25px;
+}
+
+.iconeexcluir{
+    width: 25px;
+    height: 25px;
+}
+
+.botaoccadastrarnovoingles{
+    border: 2px solid #417796;
+    padding: 18px 39px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;   
+    outline: none;
+    color: black;
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)
+}
+
+.botaoccadastrarnovoingles:hover{
+    color: white;
+    background-color: #417796;
+}
+
+.botaoccadastrarnovoingles:active{
+    color: #57A0C9;
+    background-color:#203A4A;
+}

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-GRhO - Ficha Cadastral</title>
+    <title>e-GRhO - Habilitações</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="fichacadastral.css">
+    <link rel="stylesheet" href="habilitacoes.css">
 </head>
 <body style=" font-family: 'Poppins', sans-serif;">
     <div>   
@@ -53,13 +53,13 @@
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle" style="color: black;">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline"><b>Consulta Operadores</b></span> </a>
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Consulta Operadores</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;"><b>-  Ficha Cadastral</b></span></a>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Ficha Cadastral</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Habilitações</span></a>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;"><b>-  Habilitações</b></span></a>
                                 </li>
                                 <li>
                                     <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: black;">-  Inspeção de Saúde</span></a>
@@ -79,85 +79,53 @@
                     </ul>         
                 </div>
             </div>
-           
-            <div class="col py-3" id="conteudo" >
+            <div class="col py-3" id="conteudo">
                 <section>
-                    <h1><b>Ficha Cadastral</b></h1>
-                    <ul class="ulum">
-                        <div><li>
-                            <label for="nome">Nome completo:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label for="nome">Nome usual:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label>Gênero:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label for="dn">Data de nascimento:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label for="email">RG:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label for="email">CPF:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-        
-                        <div><li>
-                            <label for="email">E-mail:</label>
-                            <b>&nbsp;</b></li>
-                        </div>            
-        
-                        <div><li>
-                            <label for="telefone">Telefone:</label>
-                            <b>&nbsp;</b> </li>  
-                        </div>
-        
-                        <div><li>
-                            <label for="dn">Data de formação:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-                    </ul>
+                    <h1>Habilitações</h1>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">&nbsp</th>
+                            <th scope="col">Habilitação</th>
+                            <th scope="col">Data de Início</th>
+                            <th scope="col">Validade</th>
+                            <th scope="col">Editar</th>
+                            <th scope="col">Excluir</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="botaoeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="botaoexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.png" alt="excluir" href="#"></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
 
-                    <p class="endereco">Endereço</p>
-
-                    <ul class="uldois">
-
-                        <div><li>
-                            <label for="logradouro">Logradouro:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-                        
-                        <div><li><label for="numero">nº:</label>
-                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-                            <label for="complemento">Complemento:</label>
-                            <b>&nbsp;</b></li>
-                        </div>
-                       
-                        <div><li><label for="cidadeeestado">Cidade/Estado:</label>
-                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-                            <label for="cep">CEP:</label>
-                            <b>&nbsp;</b></input></li>        
-                        </div>                           
-                    </ul>
-                         
                     <div>
-                        <button class="botaoeditarcadastro" type="submit"><b>Editar Cadastro</b></button><br>
+                        <button class="botaoccadastrarnovahabilitacao" type="submit"><b>Cadastrar Nova<br> Habilitação</b></button><br>
                     </div>
                 </section>
             </div>
-
         </div>
     </div>
 

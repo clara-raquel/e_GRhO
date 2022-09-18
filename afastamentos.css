@@ -3,9 +3,11 @@
 section{
     background-color: #E7F1F7;
     margin: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 20px;
     border: 1px solid #57A0C9;
-    max-width: 1000px;
+    max-width: 1430px;
 }
 
 #conteudo{
@@ -17,6 +19,32 @@ h1{
     font-weight: 700;
     padding-left: 10px;
     margin-bottom: 15x;
+}
+.afastamentos{
+    width: 182px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
+}
+
+.datainicio, .datatermino{
+    width: 138px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
+}
+
+.documento{
+    width: 371x;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
 }
 
 .iconeeditar{

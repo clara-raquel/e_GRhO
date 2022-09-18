@@ -19,6 +19,33 @@ h1{
     margin-bottom: 15x;
 }
 
+.tipoletra{
+    width: 120px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
+}
+
+.resultado{
+    width: 120px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
+}
+
+.validade{
+    width: 150px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    color: white;
+}
+
 .iconeeditar{
     width: 35px;
     height: 25px;

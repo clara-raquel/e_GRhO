@@ -21,6 +21,7 @@ h1{
 
 .anoingles, .valingles{
     width: 90px;
+    height: 28px;
     border-radius: 5px;
     border: 2px solid #417796;
     background-color: #57A0C9;
@@ -29,6 +30,7 @@ h1{
 
 .nivelingles{
     width: 120px;
+    height: 28px;
     border-radius: 5px;
     border: 2px solid #417796;
     background-color: #57A0C9;

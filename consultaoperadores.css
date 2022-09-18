@@ -1,58 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to bottom left,white,#57A0C9)     
-}
-
 section{
     background-color: #E7F1F7;
     margin: 50px;
     border-radius: 20px;
     border: 1px solid #57A0C9;
-    max-width: 600px;
+    max-width: 1000px;
+}
+
+#conteudo{
+    background-color: #66A4C7;
 }
 
 h1{
     font-size: 30px;
     font-weight: 700;
     padding-left: 10px;
+    margin-bottom: 15x;
 }
 
+.pesquisarpornome{
+    margin-left: 40%;
+    margin-top: 90px;
+}
 
-
-
-
-
-.pesquisapornome{
-    margin-left: 37%;
+#pesquisarpornome{
+    background-color: #54ADD2;
     color: white;
-
+    border-radius: 5px;
+    border: 1px solid #57A0C9;
 }
 
-.btn{
-    font-family: 'Poppins', sans-serif;
-    border: none;
+.botaoconsultar{
+    border: 2px solid #417796;
     padding: 18px 39px;
     text-decoration: none;
     cursor: pointer;
-    transition: background .3s;
-    border-radius: 5px;
-    background-color: #57A0C9;
+    border-radius: 5px;   
     outline: none;
     color: black;
-    font-weight: 700;
-    font-size: 21px;
+    margin-left: 42%;
+    margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 37%;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)
 }
 
-.btn:hover{
+.botaoconsultar:hover{
     color: white;
     background-color: #417796;
 }
 
-.btn:active{
+.botaoconsultar:active{
     color: #57A0C9;
     background-color:#203A4A;
 }

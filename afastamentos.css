@@ -19,22 +19,6 @@ h1{
     margin-bottom: 15x;
 }
 
-.anoingles, .valingles{
-    width: 90px;
-    border-radius: 5px;
-    border: 2px solid #417796;
-    background-color: #57A0C9;
-    color: white;
-}
-
-.nivelingles{
-    width: 120px;
-    border-radius: 5px;
-    border: 2px solid #417796;
-    background-color: #57A0C9;
-    color: white;
-}
-
 .iconeeditar{
     width: 35px;
     height: 25px;
@@ -45,7 +29,7 @@ h1{
     height: 25px;
 }
 
-.botaoccadastrarnovoingles{
+.botaoccadastrarnovoafastamento{
     border: 2px solid #417796;
     padding: 18px 39px;
     text-decoration: none;
@@ -59,12 +43,12 @@ h1{
     background-image: linear-gradient(to bottom left,white,#57A0C9)
 }
 
-.botaoccadastrarnovoingles:hover{
+.botaoccadastrarnovoafastamento:hover{
     color: white;
     background-color: #417796;
 }
 
-.botaoccadastrarnovoingles:active{
+.botaoccadastrarnovoafastamento:active{
     color: #57A0C9;
     background-color:#203A4A;
 }

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+section{
+    background-color: #E7F1F7;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid #57A0C9;
+    max-width: 1000px;
+}
+
+#conteudo{
+    background-color: #66A4C7;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 15x;
+}
+
+.ulum{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    padding-right: 70%;
+    
+}
+
+.endereco{
+    font-size: 21px;
+    padding-left: 12px;
+}
+
+.uldois{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    padding-right: 70%;
+}
+
+#numero{
+    width: 59px;
+    border-radius: 3px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    margin-top: 10px;
+}
+
+#cidadeeestado{
+    width: 443px;
+    border-radius: 3px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    margin-top: 10px;
+}
+
+#cep{
+    width: 110px;
+    border-radius: 3px;
+    border: 2px solid #417796;
+    background-color: #57A0C9;
+    margin-top: 10px;
+}
+
+.pesquisarpornome{
+    margin-left: 40%;
+    margin-top: 90px;
+}
+
+.botaoeditarcadastro{
+    border: 2px solid #417796;
+    padding: 18px 39px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;   
+    outline: none;
+    color: black;
+    margin-left: 42%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom left,white,#57A0C9)
+}
+
+.botaoeditarcadastro:hover{
+    color: white;
+    background-color: #417796;
+}
+
+.botaoeditarcadastro:active{
+    color: #57A0C9;
+    background-color:#203A4A;
+}
